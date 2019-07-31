@@ -74,9 +74,22 @@ table {
   color: white;
 }
 
+.main-nav a:hover {
+  color: black;
+}
+
+
+
+
 .login {
   padding-right: 5%;
 }
+
+
+.login a:hover {
+  color: black;
+}
+
 
 .login a {
   text-decoration: none;
@@ -104,6 +117,9 @@ table {
     flex-flow: column nowrap;
     width: 90%;
   }
+
+  
+
 
   .main-nav a {
     display: flex;
@@ -298,7 +314,6 @@ body {
   background: lightblue;
 }
 
-
 .admin-div {
   display: flex;
   flex-flow: column wrap;
@@ -318,7 +333,14 @@ body {
   background: white;
 }
 
+.sixth-container button:hover {
+  background-color: lightskyblue;
+  color: lightgreen;
+}
+
+
 .sixth-container button {
+  cursor: pointer;
   border-radius: 25px;
   width: 15%;
   background-color: lightgreen;
@@ -415,6 +437,7 @@ button {
   margin-top: 1%;
   max-width: 33%;
   width: 33%;
+  border-bottom: 5px solid lightblue;
 }
 
 .person img {
@@ -435,6 +458,29 @@ button {
   line-height: 2.5;
   text-align: center;
 }
+
+
+.stage {
+  border-bottom: 3px solid #444;
+  display: flex;
+  height: 330px;
+  width: 100%;
+}
+
+
+
+.bounce-4 {
+  animation-name: bounce-4;
+  animation-timing-function: ease;
+}
+@keyframes bounce-4 {
+  0%   { transform: scale(1,1)    translateY(0); }
+  10%  { transform: scale(1.1,.9) translateY(0); }
+  30%  { transform: scale(.9,1.1) translateY(-100px); }
+  50%  { transform: scale(1,1)    translateY(0); }
+  100% { transform: scale(1,1)    translateY(0); }
+}
+
 
 @media only screen and (max-width: 500px) {
   .team {
@@ -460,3 +506,6 @@ button {
     border-radius: 25px;
   }
 }
+
+
+
