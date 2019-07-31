@@ -170,11 +170,14 @@ body {
 
 .top-image {
   display: flex;
+  padding: 1%;
 }
 
 .top-image img {
   max-width: 100%;
   margin-left: 19%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .first-container {
@@ -221,6 +224,7 @@ body {
   margin-right: 5%;
   margin-left: 45%;
   border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .third-container {
@@ -300,6 +304,7 @@ body {
   margin-right: 5%;
   margin-left: 5%;
   border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .fifth-container {
@@ -427,7 +432,7 @@ button {
 .team {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .person {
@@ -438,6 +443,7 @@ button {
   max-width: 33%;
   width: 33%;
   border-bottom: 5px solid lightblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .person img {
@@ -505,6 +511,22 @@ button {
     margin-left: 26%;
     border-radius: 25px;
   }
+
+
+  .fourth-container img {
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    width: 60%;
+    margin-right: 5%;
+    margin-left: 20%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
+
 }
 
 
