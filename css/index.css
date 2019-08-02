@@ -60,7 +60,7 @@ table {
 .logo {
   padding-left: 5%;
   color: white;
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Saira Stencil One', cursive;
 }
 
 .main-nav {
@@ -258,13 +258,6 @@ body {
   border-radius: 25px;
 }
 
-.volunteer-div {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  margin-left: 5%;
-  margin-right: 5%;
-}
 
 .fourth-container {
   margin-top: 10px;
@@ -280,13 +273,7 @@ body {
   text-align: center;
 }
 
-.student-div {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  margin-left: 5%;
-  margin-right: 5%;
-}
+
 
 .fourth-container button {
   border-radius: 25px;
@@ -416,6 +403,8 @@ p {
 }
 
 a {
+  color:white;
+  text-decoration: none;
   font-size: 1.2rem;
   font-family: "Rubik", sans-serif;
 }
@@ -471,20 +460,6 @@ button {
   display: flex;
   height: 330px;
   width: 100%;
-}
-
-
-
-.bounce-4 {
-  animation-name: bounce-4;
-  animation-timing-function: ease;
-}
-@keyframes bounce-4 {
-  0%   { transform: scale(1,1)    translateY(0); }
-  10%  { transform: scale(1.1,.9) translateY(0); }
-  30%  { transform: scale(.9,1.1) translateY(-100px); }
-  50%  { transform: scale(1,1)    translateY(0); }
-  100% { transform: scale(1,1)    translateY(0); }
 }
 
 
